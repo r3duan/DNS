@@ -12,4 +12,4 @@ Under .com, inlanefreight.com has to be unique — nobody else can register that
 Under inlanefreight.com, the owner of that domain can create www, mail, dev, etc., and those just need to be unique within inlanefreight.com — someone else's domain can also have a www subdomain, no conflict, because it lives in a different branch of the tree.
 
 
-T
+
