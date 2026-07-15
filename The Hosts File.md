@@ -22,5 +22,17 @@ So `127.0.0.1 localhost` tells your machine "don't look this up anywhere, `local
 ## The three practical uses it mentions
 
 1. **Local development** — point a domain your app expects (`myapp.local`) at `127.0.0.1` so you can test against "the real domain name" without owning that domain or touching any actual DNS records.
+
+  ```
+  127.0.0.1       myapp.local
+  ```
 2. **Connectivity testing** — map a hostname straight to a known IP (`testserver.local` → `192.168.1.20`) to isolate whether a problem is a DNS issue or an actual network/server issue. If it works via the hosts file but not through normal DNS, you've just proven DNS is the broken link.
+      ```
+      192.168.1.20    testserver.meow
+      ```
+
 3. **Blocking sites** — redirect an unwanted domain to `0.0.0.0` (a non-routable address), so any attempt to reach it just fails instead of connecting anywhere. This is the same trick a lot of ad-blocking hosts-file lists use at scale.
+
+      ```bash
+      0.0.0.0       unwanted-site.com
+      ```
