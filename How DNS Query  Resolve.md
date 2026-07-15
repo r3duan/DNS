@@ -11,6 +11,14 @@ There are several types of DNS servers that are used worldwide:
 - Forwarding server
 - Resolver
 
+
+
+
+
+<img width="1919" height="406" alt="image" src="https://github.com/user-attachments/assets/e2879474-93c4-4341-bc46-3e825a7d2a98" />
+
+
+
 ## How a Query Actually Resolves — The Pieces Involved
 
 Different servers play different roles in that chain:
