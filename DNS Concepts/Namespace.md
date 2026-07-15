@@ -9,5 +9,5 @@ The core idea: names only need to be unique within their namespace, not universa
 In DNS specifically (since that's what we were using the term for): the whole domain name system is one giant hierarchical namespace. It's organized as a tree, and each level delegates authority over unique names to the level below it:
  
 - Under the root, `.com` is unique — there's only one `.com` TLD.
-- Under `.com`, `inlanefreight.com` has to be unique — nobody else can register that exact second-level domain.
-- Under `inlanefreight.com`, the owner of that domain can create `www`, `mail`, `dev`, etc., and those just need to be unique within `inlanefreight.com` — someone else's domain can also have a `www` subdomain, no conflict, because it lives in a different branch of the tree.
+- Under `.com`, `reduan.com` has to be unique — nobody else can register that exact second-level domain.
+- Under `reduan.com`, the owner of that domain can create `www`, `mail`, `dev`, etc., and those just need to be unique within `reduan.com` — someone else's domain can also have a `www` subdomain, no conflict, because it lives in a different branch of the tree.
